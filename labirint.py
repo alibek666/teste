@@ -289,7 +289,7 @@ while run:
             bot5.update()
             bot6.update()
             finish.update()
-            #отрисовка спрайтов
+            #отрисовка спрайтов + спрайт
             player.draw()
             bot.draw()
             bot2.draw()
@@ -327,7 +327,7 @@ while run:
             final = True
             text_fin = text_lose
             kick.play()
-            music.stop()
+            
         ##победа дыгыдыг
         if pygame.sprite.collide_rect(player, finish):
             paused - True
